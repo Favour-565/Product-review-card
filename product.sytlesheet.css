@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: static;
+}
+main {
+    width: 35%;
+    background-color:  hsl(30, 38%, 92%) ;
+    
+    padding: 20px;
+    margin: auto;
+    margin-top: 30px;
+    justify-items: center;
+
+ 
+
+}
+.Top img{
+    margin: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.sent{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 5px;
+}
+h1{
+    font-size: 30px;
+    word-break: normal;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+}
+.description{
+    line-height: 30px;
+}
+
+h3{
+    color: green;
+    font-weight: bolder;
+    font-size: 30px;
+    padding-right: 15px;
+}
+span {
+    color: gray;
+    font-size: 15px;
+    text-decoration: line-through;
+
+}
+.Bottom {
+    background-color: white;
+    width: 400px;
+    margin-top: -5px;
+    padding: 13px;
+   
+}
+
+.price{
+    display: flex;
+    align-items: center;
+}
+.addtocart {
+    display: flex;
+    background-color:  green;
+    border-radius: 7px;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+   border: none;
+   color: white;
+   padding: 9px;
+}
